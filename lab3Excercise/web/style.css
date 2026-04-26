@@ -1,0 +1,182 @@
+/* Simple CSS for Student Club Registration System */
+/* Done by: Software Engineering Student */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+/* Header */
+.header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    background: #004080;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.nav-menu a:hover {
+    background: #002050;
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+    padding: 30px;
+    min-height: 400px;
+}
+
+/* Footer */
+.footer {
+    background: #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+}
+
+/* Form */
+.form-container {
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #003366;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #002050;
+}
+
+.btn-secondary {
+    background: #ccc;
+    color: black;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn-secondary:hover {
+    background: #bbb;
+}
+
+/* Table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.data-table th {
+    background: #003366;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.data-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.data-table tr:hover {
+    background: #f5f5f5;
+}
+
+/* Info boxes */
+.info-card {
+    background: #e6f0ff;
+    border-left: 4px solid #003366;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.success-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+}
+
+.fee-display {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+    margin-top: 15px;
+}
+
+/* Headings */
+h2 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #004080;
+    margin: 15px 0 10px 0;
+}
