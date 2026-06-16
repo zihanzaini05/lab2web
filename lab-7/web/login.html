@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Student Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Student Login</h2>
+        <form action="UserServlet" method="POST">
+            <input type="hidden" name="action" value="login">
+            
+            Matric No: <input type="text" name="matricNo" required><br><br>
+            Password: <input type="password" name="password" required><br><br>
+            
+            <input type="submit" value="Login">
+        </form>
+    </body>
+</html>
